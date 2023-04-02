@@ -1,0 +1,15 @@
+<div class="mt-5 container mainContainer">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="card shadow p-3">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label for="csv" class="form-label">Upload A CSV</label>
+            <input type="file" accept=".csv" class="form-control" name="csv" id="csv" placeholder="Upload a File" aria-describedby="fileHelpId">
+          </div>
+          <button type="submit" class="btn btn-primary">Upload a File</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

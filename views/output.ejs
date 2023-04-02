@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-striped
+        table-hover	
+        table-borderless
+        table-primary
+        align-middle">
+            <thead class="table-light">
+                <!-- fetching the column names from json output -->
+                <% for(let d in data[1]){ %>
+                    <th><%= d %></th>
+                <% } %>
+                <tr>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <!-- fetching the data for each row -->
+                    <% for(let tuple of data){%>
+                        <tr>
+                            <% for (let d in data[1]) {%>
+                                <td><%= tuple[d] %></td>
+                            <% } %>
+                        </tr>
+                    <% } %>
+                </tbody>
+                <tfoot>
+                    
+                </tfoot>
+        </table>
+    </div>
+    
+</div>

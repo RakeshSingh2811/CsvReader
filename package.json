@@ -1,0 +1,28 @@
+{
+  "name": "csvreader",
+  "version": "1.0.0",
+  "description": "CSV Reader ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakeshSingh2811/CsvReader.git"
+  },
+  "author": "Rakesh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakeshSingh2811/CsvReader/issues"
+  },
+  "homepage": "https://github.com/RakeshSingh2811/CsvReader#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "json": "^11.0.0"
+  }
+}
